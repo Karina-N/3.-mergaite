@@ -1,18 +1,25 @@
 body {
     background-color: #f8f8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
     header {
-
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1200px) / 2);
     }
 
     /* header > img ----> varnele reiskia kad paims img butent is header/tiesioginio tevo elemento */
+        
         header > img {
-
+            display: inline-block;
+            float: left;
         }
 
         nav {
-
+            display: inline-block;
+            float: right;
+            margin-top: 60px;
         }
 
             a {
@@ -26,11 +33,16 @@ body {
             }
 
     main {
-
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1200px) / 2);
     }
 
         div {
-
+            display: inline-block;
+            width: 40%;
+            float: left;
+            margin-top: 100px;
         }
 
             h1 {
@@ -42,6 +54,8 @@ body {
             }
 
         main > img {
-
+            display: inline-block;
+            width: 50%;
+            float: right;
         }
 
