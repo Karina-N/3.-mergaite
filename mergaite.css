@@ -21,18 +21,33 @@ body {
             display: inline-block;
             float: right;
             margin-top: 60px;
+            font-size: 18px;
         }
 
             a {
-
+                display: inline-block;
+                float: left;
+                margin-left: 10px;
+                color: #9f9f9f;
+                text-decoration: none;
+                padding: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: 3px solid transparent;
             }
 
             /* a:last-of-type ---> paims paskutine a reiksme */
 
             a:last-of-type {
+                border-color: #9f9f9f;
+                border-radius: 21px;
+                padding-left: 25px;
+                padding-right: 25px;
+                text-align: center;
+                text-transform: uppercase;
 
             }
-
+            
     main {
         display: inline-block;
         width: 1000px;
